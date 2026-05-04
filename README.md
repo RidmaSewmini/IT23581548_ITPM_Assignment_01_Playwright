@@ -34,18 +34,19 @@ https://github.com/RidmaSewmini/IT23581548_ITPM_Assignment_01_Playwright
 
 ### 1. Install dependencies
 
+```bash
 pip install playwright openpyxl
-
+```
 
 ### 2. Install browser
-
+```bash
 python -m playwright install
-
+```
 
 ### 3. Run automation
-
-python IT23581548_test_automation.py --excel "IT23581548_Test_cases.xlsx" --url "https://www.pixelssuite.com/chat-translator
-"
+```bash
+python IT23581548_test_automation.py --excel "IT23581548_Test_cases.xlsx" --url "https://www.pixelssuite.com/chat-translator"
+```
 
 
 ## 📊 Output
@@ -65,13 +66,14 @@ python IT23581548_test_automation.py --excel "IT23581548_Test_cases.xlsx" --url 
 
 ## 📁 Project Structure
 
+```
 IT23581548/
 │
 ├── IT23581548_Test_cases.xlsx
 ├── IT23581548_test_automation.py
 ├── README.md
 └── instructions.txt
-
+```
 
 ## ✅ Conclusion
 The system performs well for basic inputs but struggles with complex, mixed, and non-standard Singlish inputs.
