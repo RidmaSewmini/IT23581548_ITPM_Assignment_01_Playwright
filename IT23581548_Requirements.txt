@@ -1,0 +1,9 @@
+Project: Singlish to Sinhala Translator Testing Automation
+
+Requirements:
+
+Playwright
+Openpyxl
+
+Git Repo
+
